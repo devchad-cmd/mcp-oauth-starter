@@ -1,0 +1,21 @@
+{
+  "name": "mcp-oauth-starter",
+  "version": "1.0.0",
+  "description": "A minimal, runnable reference: a remote MCP server protected by OAuth 2.1 (discovery, DCR, PKCE, refresh rotation). Framework-agnostic TypeScript.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["mcp", "model-context-protocol", "oauth", "oauth2", "pkce", "claude", "reference"],
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "jose": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
