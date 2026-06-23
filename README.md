@@ -1,5 +1,7 @@
 # mcp-oauth-starter
 
+![A remote MCP server protected by OAuth 2.1 — discovery, DCR, PKCE, refresh rotation](assets/oauth-remote-mcp-server.jpg)
+
 A minimal, **runnable** reference for a **remote MCP server protected by OAuth 2.1** — the flow that lets a client like Claude Desktop add your server as a custom connector by URL and sign in, with no install and no API key to copy around.
 
 Framework-agnostic TypeScript (`node:http` + [`jose`](https://github.com/panva/jose)), an in-memory store, and a demo consent screen, so the whole thing runs in one command. It's the distilled, generic version of what we shipped at [SkillDB](https://skilldb.dev) — see the writeup: **[Shipping an OAuth-protected remote MCP server](https://skilldb.dev/blog/oauth-remote-mcp-server)**.
